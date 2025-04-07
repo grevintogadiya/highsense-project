@@ -5,18 +5,14 @@ import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 function Welcome() {
   return (
     <div className="container mx-auto p-6  bg-[#FAFAF4]">
-   
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-    
         <div className="grid grid-cols-6 gap-2 flex items-center">
-          <div className="col-span-6 space-y-2 ">
-            {" "}
-       
-            <button className="bg-green-600 text-white px-4 py-2 rounded-md">
+          <div className="col-span-6 space-y-1 ">
+            <button className="bg-green-600 text-white px-4 py-2 rounded-3xl">
               Welcome
             </button>
             <h6 className="text-green-600 text-[35px] font-bold">
-              #1 CRM & ERP{" "}
+              #1 CRM & ERP
               <span className="text-black font-bold">Development</span>
             </h6>
             <h3 className="text-black text-[35px] font-bold">
@@ -28,19 +24,13 @@ function Welcome() {
           </div>
         </div>
 
-
         <div className="grid grid-cols-6 gap-2 items-center">
           <div className="col-span-6">
             <p className="text-gray-700">
-              Highsense Infotech is a growing and experienced team of creative,
-              <br />
-              innovative, and professional specialists in Website Design,
-              Software
-              <br />
-              Development, Search Engine Optimization, and the Best ERP
-              Development
-              <br />
-              company in Surat.
+              Highsense Infotech is growing and experienced team of creative,
+              innovative and professional specialists in Website Design ,
+              Software development , Search Engine Optimization and Best Erp
+              Development company in surat.
             </p>
             <p className="text-gray-700 mt-4">
               We are passionate about our work and behave as dedicated resources
@@ -53,7 +43,6 @@ function Welcome() {
             </p>
           </div>
 
-   
           <div className="col-span-6 flex items-center space-x-2">
             <FontAwesomeIcon
               icon={faCheckDouble}
@@ -61,13 +50,11 @@ function Welcome() {
               className="text-green-600"
             />
             <p className="text-gray-700">
-              Highsense Infotech excels in creating innovative websites that are
-              <br />
+              Highsense Infotech excels in creating innovative Websites that are
               user-friendly & cross-browser compatible.
             </p>
           </div>
 
-         
           <div className="col-span-6">
             <a href="#" className="text-green-600 font-bold underline">
               Want to Hire Highsense Infotech for Your Next Project?
